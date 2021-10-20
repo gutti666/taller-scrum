@@ -1,3 +1,5 @@
-document.getElementById("btn").addEventListener("click", function(){
-window.location.href = 'registro.html';
-})
+
+function gopage(){
+    window.location.href ='registro.html';
+
+}
