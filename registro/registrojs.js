@@ -1,10 +1,9 @@
 
 var boton = document.getElementById("boton")
 
-
-boton.addEventListener("click", function(e){
+function save(event){
     var costo = 0
-    e.preventDefault()
+    event.preventDefault()
     var a = document.getElementById("marca").value
     var b = document.getElementById("modelo").value
     var c = document.getElementById("ident").value
@@ -37,6 +36,4 @@ boton.addEventListener("click", function(e){
     }
     }
 
-
-
-})
+}
